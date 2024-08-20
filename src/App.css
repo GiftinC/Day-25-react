@@ -1,0 +1,241 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.ProductsCart {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  padding: 5%;
+  background-color: rgb(37, 79, 79);
+}
+
+.CombinedCart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 100px;
+  background-color: rgb(69, 135, 135);
+  border-radius: 30px;
+}
+
+.ProductCart {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+}
+
+.ProductImage {
+  margin: 10px;
+  width: 25%;
+  height: 80%;
+}
+
+.Details {
+  display: flex;
+  flex-direction: column;
+  width: 42%;
+  padding: 3%;
+}
+
+.Details > p {
+  font-size: small;
+}
+
+.Pricebox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 10%;
+}
+
+.Pricebox > h4 {
+  margin: 0% 0 130% 0;
+}
+
+
+.AddRemove {
+    display: flex;
+  flex-direction: column;
+  width: 13%;
+
+}
+
+.AddRemove > button {
+  margin: 50px 0 50px 0;
+}
+
+.QuantityCart {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  padding: 0 0 15px 0;
+  border-top: 1px solid black;
+}
+
+.SubTotal {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  margin: 0 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Shipping {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50px;
+  margin: 0 2%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.card {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  justify-content: space-around;
+    align-items: center;
+    background-color: rgb(69, 135, 135);
+ border: 3px solid white;
+ margin: 10px;
+}
+
+.card img {
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+.card button {
+  margin: 20px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 20%;
+  width: 100%;
+}
+
+.card > div {
+  display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  justify-content: space-around;
+    align-items: center;
+}
+
+.card  h5 {
+  margin: 20px;
+  width: 250px;
+  font-size: small;
+}
+
+.card  h6 {
+margin: 30px;
+font-size: small;
+}
+
+.Total {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(69, 135, 135);
+  margin: 10px;
+  border: 3px solid white;
+}
+
+
+.Calc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(69, 135, 135);
+}
